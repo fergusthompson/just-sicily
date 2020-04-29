@@ -1,6 +1,5 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 
 
 .callout-container{
@@ -10,13 +9,29 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #fff;
 
-  position: relative;
+ }
 
+ .nav
+{
+   position: fixed;
+   top: 10px;
+}
+
+ .nav-link{
+     color: #fff;
+     font-size: 20px;
+     font-family: "Montserrat", sans-serif;
+ }
+
+.callout-title {
+     margin-top: 400px;
+    margin-left: 40px;
+     color:#fff;
+     font-family: "Prata", sans-serif;
+    
  }
 
  
