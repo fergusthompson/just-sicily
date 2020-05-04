@@ -19,6 +19,7 @@
    position: fixed;
    top: 20px;
    margin-left: 20px;
+   z-index: 1;
    
 }
 
@@ -48,11 +49,13 @@
 
  .hotel-photo-frame{
      background-color: #e9dfca;
+     text-align: center;
  }
 
 .hotel-image{
     padding: 40px;
-    width: 600px;
+    width: 75%;
+    height: 75%;
     
 }
 
@@ -67,4 +70,34 @@
 .about-paragraph{
     margin: 100px;
 }
+
+.see-more-link{
+    font-family: "Montserrat", sans-serif;
+    color: #ff5848;
+    text-decoration: underline;
+}
+.hotels-section{
+    padding-bottom: 40px;
+}
+
+.dining-experioence-container{
+     height: 100vh;
+    background: url("../images/dining-experience-image.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  color: #e9dfca;
+
+
+
+}
+.dining-title{
+  font-family: "Prata", sans-serif;
+  margin-top: 260px;
+
+}
+
+
  
