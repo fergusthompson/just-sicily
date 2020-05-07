@@ -48,8 +48,9 @@
  }
 
  .hotel-photo-frame{
-     background-color: #e9dfca;
+     background-color: #F5ECDC;
      text-align: center;
+     margin-top: 40px;
  }
 
 .hotel-image{
@@ -140,4 +141,16 @@ label{
     margin-top: 15px;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
+}
+
+.heading-container{
+    text-align: center;
+}
+
+.header-underline{
+    height: 30px;
+    width: 300px;
+    background-color: #e9dfca;
+    text-align: center;
+    display: inline-block;
 }
