@@ -74,8 +74,19 @@
 .see-more-link{
     font-family: "Montserrat", sans-serif;
     color: #ff5848;
-    text-decoration: underline;
+    padding-bottom: 40px;
 }
+
+
+.link-underline{
+    height: 10px;
+    width: 150px;
+    background-color: #ff5848;
+    text-align: center;
+    display: inline-block;
+}
+
+
 .hotels-section{
     padding-bottom: 40px;
 }
@@ -100,4 +111,33 @@
 }
 
 
- 
+
+
+.keep-in-touch-title{
+    font-size: 50px;
+}
+
+label{
+    font-family: "Montserrat", sans-serif;
+}
+
+.keep-in-touch-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+    text-align: center;
+    background-color: #FCFAF6;
+      font-family: "Prata", sans-serif;
+}
+
+.form-control{
+    background-color: #FCFAF6;
+}
+
+.request-button{
+    background-color: #ff5848;
+    border-color: #ff5848;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
