@@ -21,6 +21,8 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/index.js"></script>
   </head>
 
   <body>
@@ -47,10 +49,11 @@
 
     <!----------about section------------------>
     <div class="heading-container">
-      <h1 class="about-heading">A dream by the sea</h1><br>
-       <div class="header-underline"></div>
+      <h1 class="about-heading">A dream by the sea</h1>
+      <br />
+      <div class="header-underline"></div>
     </div>
-    <br>
+    <br />
     <div class="row">
       <div class="col-lg-6 about-paragraph-container">
         <p class="about-paragraph">
@@ -60,7 +63,7 @@
           fascinating island.
         </p>
         <div class="link-container">
-          <a href="" class="see-more-link">See More</a><br>
+          <a href="" class="see-more-link">See More</a><br />
           <div class="link-underline"></div>
         </div>
       </div>
@@ -75,9 +78,9 @@
     <!----------hotels section------------------>
     <div class="heading-container">
       <h1 class="about-heading">Our Hotels</h1>
-       <div class="header-underline"></div>
+      <div class="header-underline"></div>
     </div>
-    <br>
+    <br />
     <div class="row hotels-section">
       <div class="col-lg-6 hotel-photo-frame">
         <img
@@ -93,8 +96,8 @@
           short break, relaxing holiday or multicentre tour.
         </p>
         <div>
-          <a href="" class="see-more-link">Book now</a><br>
-         <div class="link-underline"></div>
+          <a href="" class="see-more-link">Book now</a><br />
+          <div class="link-underline"></div>
         </div>
       </div>
     </div>
@@ -104,55 +107,93 @@
         <h1 class="dining-title">Dining experiences like no other</h1>
       </div>
     </div>
+    <div class="heading-container">
+      <h1 class="about-heading">Our Restaurants</h1>
+      <br />
+      <div class="header-underline"></div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-lg-6 about-paragraph-container">
+        <p class="about-paragraph">
+          Sicilian cuisine has its own identity bursting with intense, fruity and aromatic flavours
+           and offers a rich repertoire of dishes with locally grown delicious produce and a fantastic selection of restaurants
+        </p>
+        <div class="link-container">
+          <a href="" class="see-more-link">Reserve a table</a><br />
+          <div class="link-underline"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 hotel-photo-frame">
+        <img
+          src="assets/images/dining-photo.jpg"
+          alt="hotel image"
+          class="hotel-image"
+        />
+      </div>
+    </div>
+    
     <!------------------------footer------------------>
     <footer class="container-fluid">
-
-    <div class="row">
-
-    <div class="col-3">
-    </div>
-
-      <form class="keep-in-touch-container container-fluid col-6">
-      <h2 class="keep-in-touch-title">Keep in Touch</h2>
-      <p>For any information about our hotel, or if you need special assistance, or if you just want to 
-      be updated about seasonal offers and promotions, please fill this form! We will reply as soon as possibile, thank you!</p>
-        <div class="form-group row ">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10 form-box">
-            <input type="email" class="form-control" id="inputEmail3" />
-          </div>
+      <div class="row">
+        <div class="col-3">
+        
         </div>
-        <div class="form-group row">
-          <label for="inputPhone3" class="col-sm-2 col-form-label">Phone</label>
-          <div class="col-sm-10">
-            <input type="phone" class="form-control" id="inputPhone3" />
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
-          <div class="col-sm-10">
-            <input type="Name" class="form-control" id="inputName3" />
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputCountry3" class="col-sm-2 col-form-label">Country</label>
-          <div class="col-sm-10">
-            <input type="country" class="form-control" id="inputCountry3" />
-          </div>
-        </div>
-        <div class="mb-3">
-    <label for="validationTextarea">Message</label>
-    <textarea class="form-control is-invalid" id="validationTextarea" required></textarea>
-    
-  </div>
-  
 
-<button type="button" class="btn btn-primary request-button">Send Request</button>
-      </form>
+        <form class="keep-in-touch-container container-fluid col-6">
+          <h2 class="keep-in-touch-title">Keep in Touch</h2>
+          <p>
+            For any information about our hotel, or if you need special
+            assistance, or if you just want to be updated about seasonal offers
+            and promotions, please fill this form! We will reply as soon as
+            possibile, thank you!
+          </p>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label"
+              >Email</label
+            >
+            <div class="col-sm-10 form-box">
+              <input type="email" class="form-control" id="inputEmail3" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPhone3" class="col-sm-2 col-form-label"
+              >Phone</label
+            >
+            <div class="col-sm-10">
+              <input type="phone" class="form-control" id="inputPhone3" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="Name" class="form-control" id="inputName3" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputCountry3" class="col-sm-2 col-form-label"
+              >Country</label
+            >
+            <div class="col-sm-10">
+              <input type="country" class="form-control" id="inputCountry3" />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea">Message</label>
+            <textarea
+              class="form-control is-invalid"
+              id="validationTextarea"
+              required
+            ></textarea>
+          </div>
 
-      <div class="col-3">
-      </div>
+          <button type="button" class="btn btn-primary request-button">
+            Send Request
+          </button>
+        </form>
 
+        <div class="col-3">
+        </div>
       </div>
     </footer>
 

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 
 
+
 .callout-container{
     height: 100vh;
     background: url("../images/sicily-header-image.jpg") no-repeat bottom right fixed; 
@@ -101,6 +102,7 @@
   background-size: cover;
   display: flex;
   color: #e9dfca;
+  margin-top: 40px;
 
 
 
@@ -154,3 +156,4 @@ label{
     text-align: center;
     display: inline-block;
 }
+
