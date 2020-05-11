@@ -125,13 +125,49 @@ label{
 }
 
 .keep-in-touch-container{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
     width: 30%;
     text-align: center;
     background-color: #FCFAF6;
       font-family: "Prata", sans-serif;
+      display: inline-block;
 }
+
+.contact-info{
+    text-align: right; 
+
+}
+
+.contact-title{
+    font-family: "Montserrat", sans-serif;
+    color: #ff5848;
+    padding-top: 100px;
+}
+
+
+.contact-paragraph{
+    font-family: "Montserrat", sans-serif;
+}
+
+.link-divider{
+    color: #ff5848;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 3px;
+}
+
+.link-title{
+    padding-top: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.link-line{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
 
 .form-control{
     background-color: #FCFAF6;
@@ -156,4 +192,24 @@ label{
     text-align: center;
     display: inline-block;
 }
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: #ff5848;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 15px;
+
+}
+
+.footer-credit{
+     font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
 
