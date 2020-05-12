@@ -48,6 +48,30 @@
      padding-bottom: 20px;
  }
 
+ .about-header-underline{
+    height: 30px;
+    width: 300px;
+    background-color: #e9dfca;
+    text-align: center;
+    display: inline-block;
+}
+
+.hotels-header-underline{
+    height: 30px;
+    width: 300px;
+    background-color: #e9dfca;
+    text-align: center;
+    display: inline-block;
+}
+
+.dining-header-underline{
+    height: 30px;
+    width: 300px;
+    background-color: #e9dfca;
+    text-align: center;
+    display: inline-block;
+}
+
  .hotel-photo-frame{
      background-color: #F5ECDC;
      text-align: center;
@@ -79,8 +103,36 @@
     padding-bottom: 40px;
 }
 
+.book-now-link{
+    font-family: "Montserrat", sans-serif;
+    color: #ff5848;
+    padding-bottom: 40px;
+}
 
-.link-underline{
+.reserve-link{
+    font-family: "Montserrat", sans-serif;
+    color: #ff5848;
+    padding-bottom: 40px;
+}
+
+
+.see-link-underline{
+    height: 10px;
+    width: 150px;
+    background-color: #ff5848;
+    text-align: center;
+    display: inline-block;
+}
+
+.book-link-underline{
+    height: 10px;
+    width: 150px;
+    background-color: #ff5848;
+    text-align: center;
+    display: inline-block;
+}
+
+.reserve-link-underline{
     height: 10px;
     width: 150px;
     background-color: #ff5848;
@@ -136,6 +188,7 @@ label{
 
 .contact-info{
     text-align: right; 
+    margin-bottom: 100px;
 
 }
 
@@ -153,16 +206,28 @@ label{
 .link-divider{
     color: #ff5848;
     text-align: center;
-    margin-left: 6px;
-    margin-right: 3px;
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.fa{
+    font-size: 20px;
+}
+
+.link-container{
+ text-align: bottom left;
 }
 
 .link-title{
-    padding-top: 100px;
+
     font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: black;
+   
 }
 
 .link-line{
+    margin-bottom: 100px;
     width: 50%;
     height: 2px;
     background-color: black;
@@ -179,18 +244,11 @@ label{
     margin-top: 15px;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .heading-container{
     text-align: center;
-}
-
-.header-underline{
-    height: 30px;
-    width: 300px;
-    background-color: #e9dfca;
-    text-align: center;
-    display: inline-block;
 }
 
 .footer-line{
