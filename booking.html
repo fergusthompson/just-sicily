@@ -21,15 +21,15 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
   </head>
 
-  <body>
-    <!----------header section------------------>
 
-    <header>
-      <div class="jumbotron callout-container">
-        <div>
+
+
+  <body>
+
+  <!--------------nav----------->
+   <div>
           <ul class="nav nav-pills">
           <li class="nav-item">
               <a class="nav-link active" href="index.html">home</a>
@@ -38,106 +38,35 @@
               <a class="nav-link active" href="#">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="booking.html">Book Now</a>
+              <a class="nav-link" href="#">Book Now</a>
             </li>
           </ul>
         </div>
 
-        <div>
-          <h1 class="callout-title">Where you've always wanted to be</h1>
-        </div>
-      </div>
-    </header>
+        <!----------------booking section--------->
 
-    <!----------about section------------------>
-    <div class="heading-container">
-      <h1 class="about-heading">A dream by the sea</h1>
-      <br />
-      <div class="about-header-underline"></div>
-    </div>
-    <br />
-    <div class="row">
-      <div class="col-lg-6 about-paragraph-container">
-        <p class="about-paragraph">
-          Sicily, an island distinctive in both its history and culture offers
-          even seasoned travellers a unique and memorable taste of the
-          Mediterranean. We look forward to welcoming you to this truly
-          fascinating island.
-        </p>
-        <div class="link-container">
-          <a href="" class="see-more-link">See More</a><br>
-          <div class="see-link-underline"></div>
-        </div>
-      </div>
-      <div class="col-lg-6 hotel-photo-frame">
-        <img
-          src="assets/images/hotel-photo.jpg"
-          alt="hotel image"
-          class="hotel-image"
-        />
-      </div>
-    </div>
-    <!----------hotels section------------------>
-    <div class="heading-container">
-      <h1 class="about-heading">Our Hotels</h1>
-      <div class="hotels-header-underline"></div>
-    </div>
-    <br />
-    <div class="row hotels-section">
-      <div class="col-lg-6 hotel-photo-frame">
-        <img
-          src="assets/images/hotel-front.jpg"
-          alt="hotel image"
-          class="hotel-image"
-        />
-      </div>
-      <div class="col-lg-6 about-paragraph-container">
-        <p class="about-paragraph">
-          We have an exclusive collection of hotels, beach resorts and rural
-          retreats to suit all tastes and budgets throughout the island for a
-          short break, relaxing holiday or multicentre tour.
-        </p>
-        <div>
-          <a href="" class="book-now-link">Book now</a><br>
-          <div class="book-link-underline"></div>
-        </div>
-      </div>
-    </div>
-    <!----------dining experience section------------------>
-    <div class="jumbotron dining-experioence-container">
+ <div class="jumbotron booking-page-callout">
       <div>
-        <h1 class="dining-title">Dining experiences like no other</h1>
-      </div>
-    </div>
-    <div class="heading-container">
-      <h1 class="about-heading">Our Restaurants</h1>
-      <br />
-      <div class="dining-header-underline"></div>
-    </div>
-    <br />
-    <div class="row">
-      <div class="col-lg-6 about-paragraph-container">
-        <p class="about-paragraph">
-          Sicilian cuisine has its own identity bursting with intense, fruity
-          and aromatic flavours and offers a rich repertoire of dishes with
-          locally grown delicious produce and a fantastic selection of
-          restaurants
-        </p>
-        <div class="link-container">
-          <a href="#" class="reserve-link">Reserve a table</a><br>
-          <div class="reserve-link-underline"></div>
-        </div>
-      </div>
-      <div class="col-lg-6 hotel-photo-frame">
-        <img
-          src="assets/images/dining-photo.jpg"
-          alt="hotel image"
-          class="hotel-image"
-        />
+        <h1 class="booking-title">Choose from one of our many Hotels</h1>
       </div>
     </div>
 
-    <!----------keep in touch section------------------>
+<div class="row">
+      <div class="col-lg-6">
+        <p class="booking-paragraph">
+          We offer 6 different Hotels 
+          spread across the island.  
+          Check out the map to see
+           which one suits you best!
+        </p>
+        </div>
+      <div class="col-lg-6">
+      <div id="map"></div>
+      </div>
+    </div>
+
+
+ <!----------keep in touch section------------------>
     <div class="container-fluid link-container">
       <div class="row">
         <div class="col-sm-4 links-section">
@@ -218,7 +147,9 @@
         </div>
       </div>
     </div>
-    <!----------footer---------------->
+
+
+   <!----------footer---------------->
     <footer class="container-fluid">
       <div class="row">
         <div class="col-sm-3">
@@ -232,6 +163,15 @@
         </div>
       </div>
     </footer>
+
+
+     <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnBpY10sGBlxs5woPgTePXTySoCklC43E&callback=initMap">
+    </script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+     <script src="assets/javascript/maps.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

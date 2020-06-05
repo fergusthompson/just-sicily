@@ -202,7 +202,9 @@ label{
 .contact-paragraph{
     font-family: "Montserrat", sans-serif;
 }
-
+.links-section{
+    padding-top: 100px;
+}
 .link-divider{
     color: #ff5848;
     text-align: center;
@@ -270,4 +272,31 @@ label{
     
 }
 
+.booking-page-callout{
+    height: 100vh;
+    background: url("../images/booking-photo.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  color: #ff5848;
+}
 
+.booking-title{
+    font-family: "Prata", sans-serif;
+  margin-top: 400px;
+
+}
+
+.booking-paragraph{
+     font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 100px;
+}
+
+div#map {
+    min-height: 360px;
+}
