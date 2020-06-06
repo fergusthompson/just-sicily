@@ -15,6 +15,15 @@
 
  }
 
+ .callout-title {
+     margin-top: 400px;
+    margin-left: 40px;
+     color:#fff;
+     font-family: "Prata", sans-serif;
+    
+ }
+
+/*-------------------nav bar-----------------*/
  .nav
 {
    position: fixed;
@@ -42,6 +51,7 @@
      border-radius: 5px;
  }
 
+
  /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
@@ -51,10 +61,10 @@
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  background-color: #e9dfca; /* Black fallback color */
+  background-color: #e9dfca; /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  transition: 1s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 /* Position the content inside the overlay */
@@ -70,8 +80,9 @@
 .overlay a {
   padding: 8px;
   text-decoration: none;
+  font-family: "Prata", sans-serif;
   font-size: 36px;
-  color: #818181;
+  color: #fff;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -99,13 +110,7 @@
   }
 } 
 
-.callout-title {
-     margin-top: 400px;
-    margin-left: 40px;
-     color:#fff;
-     font-family: "Prata", sans-serif;
-    
- }
+/*-------------------about section-----------*/
 
  .about-heading{
      font-family: "Prata", sans-serif;
@@ -123,6 +128,20 @@
     display: inline-block;
 }
 
+.about-paragraph-container{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.about-paragraph{
+    margin: 100px;
+}
+
+/*-------------------hotel section-----------*/
+
 .hotels-header-underline{
     height: 30px;
     width: 300px;
@@ -131,15 +150,7 @@
     display: inline-block;
 }
 
-.dining-header-underline{
-    height: 30px;
-    width: 300px;
-    background-color: #e9dfca;
-    text-align: center;
-    display: inline-block;
-}
-
- .hotel-photo-frame{
+.hotel-photo-frame{
      background-color: #F5ECDC;
      text-align: center;
      margin-top: 40px;
@@ -152,17 +163,46 @@
     
 }
 
-.about-paragraph-container{
-    font-family: "Montserrat", sans-serif;
+.hotels-section{
+    padding-bottom: 40px;
+}
+
+/*-------------------dining section-----------*/
+
+.dining-header-underline{
+    height: 30px;
+    width: 300px;
+    background-color: #e9dfca;
     text-align: center;
-    font-size: 24px;
-    font-weight: 400;
+    display: inline-block;
+}
+
+.dining-experioence-container{
+     height: 100vh;
+    background: url("../images/dining-experience-image.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  color: #e9dfca;
+  margin-top: 40px;
+
+
+
+}
+.dining-title{
+  font-family: "Prata", sans-serif;
+  margin-top: 260px;
 
 }
 
-.about-paragraph{
-    margin: 100px;
-}
+
+ 
+/*-------------------link section-----------*/
+
+
+
 
 .see-more-link{
     font-family: "Montserrat", sans-serif;
@@ -208,30 +248,10 @@
 }
 
 
-.hotels-section{
-    padding-bottom: 40px;
-}
-
-.dining-experioence-container{
-     height: 100vh;
-    background: url("../images/dining-experience-image.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  color: #e9dfca;
-  margin-top: 40px;
 
 
 
-}
-.dining-title{
-  font-family: "Prata", sans-serif;
-  margin-top: 260px;
-
-}
-
+/*-------------------keep in touch section-----------*/
 
 
 
@@ -320,6 +340,9 @@ label{
     text-align: center;
 }
 
+/*-------------------footer section-----------*/
+
+
 .footer-line{
     width: 100%;
     height: 1px;
@@ -338,6 +361,9 @@ label{
     padding-bottom: 5px;
     
 }
+
+/*-------------------booking section-----------*/
+
 
 .booking-page-callout{
     height: 100vh;

@@ -34,9 +34,25 @@
           <li class="nav-item">
               <a class="nav-link active" href="index.html">home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Menu</a>
-            </li>
+          <li class="nav-item">
+              <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">Hotels</a>
+    <a href="#">Dining</a>
+    <a href="#">Book Now</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<button class="menu-overlay-button" onclick="openNav()">Menu</button>
+    </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Book Now</a>
             </li>
